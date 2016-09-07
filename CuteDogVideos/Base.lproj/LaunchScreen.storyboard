@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="XJw-51-267">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Ck6-Bj-4Ev">
+            <objects>
+                <viewController id="XJw-51-267" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lTb-HX-RhR"/>
+                        <viewControllerLayoutGuide type="bottom" id="8oH-4P-4Ca"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mSP-u0-o3Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2016 Cute Dog Videos. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ZdJ-0Y-Rhs">
+                                <rect key="frame" x="21" y="626" width="334" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.56938434090000001" green="0.80710948329999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZdJ-0Y-Rhs" firstAttribute="centerX" secondItem="mSP-u0-o3Z" secondAttribute="centerX" id="Hiw-iM-8DF"/>
+                            <constraint firstAttribute="bottom" secondItem="ZdJ-0Y-Rhs" secondAttribute="bottom" constant="20" symbolic="YES" id="Vgp-Ys-tbN"/>
+                            <constraint firstItem="ZdJ-0Y-Rhs" firstAttribute="leading" secondItem="mSP-u0-o3Z" secondAttribute="leadingMargin" constant="5" id="sF7-oo-TFZ"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ucp-zp-3Xi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="124.5" y="406.5"/>
+        </scene>
+    </scenes>
+</document>
